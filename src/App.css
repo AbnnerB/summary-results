@@ -1,0 +1,41 @@
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerContent {
+  display: flex;
+  max-width: 1440px;
+}
+
+.results {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  background: rgb(46, 43, 233);
+  background: linear-gradient(
+    0deg,
+    rgba(46, 43, 233, 1) 0%,
+    rgba(120, 87, 255, 1) 72%
+  );
+  color: white;
+}
+
+.results p {
+  text-align: center;
+  width: 80%;
+}
+
+.summary {
+  background-color: white;
+  padding: 2rem;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+}

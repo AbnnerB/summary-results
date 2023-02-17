@@ -1,6 +1,23 @@
 .summaryInfo {
+  border-radius: 12px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0.5rem;
-  background-color: yellow;
+  font-weight: bold;
+}
+
+.iconAndNameDetail {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.score {
+  font-weight: 500;
+  color: rgb(167, 160, 160);
+}
+
+.score span {
+  color: hsl(224, 30%, 27%);
+  font-weight: 800;
 }

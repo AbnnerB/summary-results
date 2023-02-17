@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-spinkit": "^3.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

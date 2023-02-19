@@ -25,6 +25,7 @@ function App() {
     <main className="app">
       {showLoading ? (
         <div className="loadingDiv">
+          <h1 style={{ color: "#131a85" }}>Loading your score</h1>
           <Oval
             height={80}
             width={80}
